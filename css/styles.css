@@ -10,10 +10,11 @@
   --yellow: #ffc107;
   --green: #28a745;
   --teal: #20c997;
-  --cyan: #17a2b8;
+  --cyan: #17a2b8 ;
   --white: #fff;
   --gray: #6c757d;
   --gray-dark: #343a40;
+  
   --primary: #f4623a;
   --secondary: #6c757d;
   --success: #28a745;
@@ -6212,6 +6213,12 @@ button.bg-primary:focus {
 .bg-secondary {
   background-color: #6c757d !important;
 }
+
+
+
+
+
+
 
 a.bg-secondary:hover, a.bg-secondary:focus,
 button.bg-secondary:hover,
