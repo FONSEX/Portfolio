@@ -565,6 +565,30 @@ transform: scale(1.1);
 filter: grayscale(0%);
 }
 
+.pro-fluid {
+  transition: transform 0.5s;
+  transform: scale(1);
+  min-width: 18rem;
+  min-height: 18rem;
+  margin: 0.7rem;
+  
+  background-color: #181414 ;
+  
+  border-radius: 5px;
+  filter: grayscale(25%);
+  padding: 1rem 0.2rem ;
+}
+
+.pro-fluid:hover {
+
+  transition: transform 0.1s;
+
+transform: scale(1.05);
+filter: grayscale(0%);
+}
+
+
+
 .button-certificates {
   margin: 1rem 2rem;
 }
@@ -10261,6 +10285,7 @@ header.masthead h1 {
   text-align: center;
   opacity: 0;
   color: #fff;
+  text-decoration:none;
   background: rgba(244, 98, 58, 0.9);
   transition: opacity 0.25s ease;
   text-align: center;
