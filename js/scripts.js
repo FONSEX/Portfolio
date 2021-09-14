@@ -16,7 +16,7 @@
             if (target.length) {
                 anime({
                     targets: 'html, body',
-                    scrollTop: target.offset().top - 10,
+                    scrollTop: target.offset().top - 1,
                     duration: 1200,
                     easing: 'easeInOutExpo'
                 });
@@ -64,5 +64,7 @@
             tError: '<a href="%url%">The image #%curr%</a> could not be loaded.'
         }
     });
+
+    
 
 })(jQuery); // End of use strict
