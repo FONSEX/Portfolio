@@ -550,10 +550,10 @@ filter: grayscale(20%);
   transition: transform 0.5s;
   transform: scale(1);
   max-width: 100%;
-  height: auto;
+  height: 230px;
   
   border-radius: 15px;
-  filter: grayscale(25%);
+  filter: grayscale(60%);
   padding: 0.5rem 0.2rem ;
 }
 
@@ -562,7 +562,7 @@ filter: grayscale(20%);
   transition: transform 0.3s;
 
 transform: scale(1.01);
-filter: grayscale(0%);
+filter: grayscale(10%);
 }
 
 .pro-fluid {
