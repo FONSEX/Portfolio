@@ -49,8 +49,7 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
   display: block;
 }
 
-/* custom scrollbar */
-/* custom scrollbar */
+
 ::-webkit-scrollbar {
   width: 0px;
   background-color: transparent;

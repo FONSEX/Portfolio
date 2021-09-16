@@ -1,8 +1,8 @@
 
 (function ($) {
-    "use strict"; // Start of use strict
+    "use strict"; 
 
-    // Smooth scrolling using anime.js
+    // Smooth scrolling 
     $('a.js-scroll-trigger[href*="#"]:not([href="#"])').on('click', function () {
         if (
             location.pathname.replace(/^\//, "") ==
@@ -50,10 +50,10 @@
     $(window).scroll(navbarCollapse);
 
     // Magnific popup calls
-    $('#portfolio').magnificPopup({
-        delegate: 'a',
+    $('#certificates').magnificPopup({
+        delegate: 'span',
         type: 'image',
-        tLoading: 'Loading image #%curr%...',
+        tLoading: 'Cargando imagen #%curr%...',
         mainClass: 'mfp-img-mobile',
         gallery: {
             enabled: true,
@@ -64,6 +64,50 @@
             tError: '<a href="%url%">The image #%curr%</a> could not be loaded.'
         }
     });
+
+    $(`#projects`).magnificPopup({
+        delegate: 'span',
+        type: 'image',
+        tLoading: 'Cargando imagen #%curr%...',
+        mainClass: 'mfp-img-mobile',
+        
+        
+        image: {
+            type:'image',
+            tError: '<a href="%url%">The image #%curr%</a> could not be loaded.'
+        }
+    });
+
+
+
+   /* $('#more_certificates').magnificPopup({
+        items: [
+          {
+            src: 'path-to-image-1.jpg',
+            type: 'image'
+          },
+          {
+            src: 'path-to-image-1.jpg',
+            type: 'image'
+          },
+          {
+            src: 'path-to-image-1.jpg',
+            type: 'image'
+          },
+          {
+            src: 'path-to-image-1.jpg',
+            type: 'image'
+          },
+          {
+            src: 'path-to-image-1.jpg',
+            type: 'image'
+          }
+        ],
+        gallery: {
+          enabled: true
+        },
+        type: 'image' // this is default type
+    }); */ 
 
     
 
