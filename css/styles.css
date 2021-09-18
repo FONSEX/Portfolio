@@ -594,6 +594,28 @@ transform: scale(1.05);
 filter: grayscale(0%);
 }
 
+.main-fluid {
+  transition: transform 0.2s;
+  transform: scale(1);
+  min-width: 18rem;
+  min-height: 18rem;
+  margin: 0.7rem;
+  
+  background-color: #181414 ;
+  
+  border-radius: 5px;
+  filter: grayscale(25%);
+  padding: 1rem 0.2rem ;
+}
+
+.main-fluid:hover {
+
+  transition: transform 0.1s;
+
+transform: scale(1.01);
+filter: grayscale(0%);
+}
+
 
 
 .button-certificates {
@@ -4035,6 +4057,8 @@ input[type=button].btn-block {
 
   
 }
+
+
 
 
 
