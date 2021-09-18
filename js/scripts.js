@@ -116,7 +116,22 @@
     });
 }
 
-switchLang("en");
+
+
+var user = window.navigator.userLanguage || window.navigator.language;
+var userLang = user.substring(0,2);
+
+if (userLang === 'en') {
+    switchLang("en");
+}else if (userLang === 'sp') {
+    switchLang("sp");
+} else {
+    switchLang("en");
+}
+               
+               
+
+
 
 $(".switchlang").click(function() {
     // change the button caption here, eg a flag
