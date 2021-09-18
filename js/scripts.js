@@ -116,7 +116,7 @@
     });
 }
 
-  // initializes the script papaaaa
+switchLang("en");
 
 $(".switchlang").click(function() {
     // change the button caption here, eg a flag
