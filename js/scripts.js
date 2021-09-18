@@ -2,6 +2,9 @@
 (function ($) {
     "use strict"; 
 
+
+   
+
     // Smooth scrolling 
     $('a.js-scroll-trigger[href*="#"]:not([href="#"])').on('click', function () {
         if (
@@ -118,15 +121,26 @@
 
 
 
-var user = window.navigator.userLanguage || window.navigator.language;
-var userLang = user.substring(0,2);
 
-if (userLang === 'en') {
+
+
+if ((window.navigator.userLanguage || window.navigator.language).includes("en") ) {
     switchLang("en");
-}else if (userLang === 'sp') {
+    
+    
+}else 
+
+ if ((window.navigator.userLanguage || window.navigator.language).includes("es") ) {
+  
+    
     switchLang("sp");
+
+    
+
 } else {
+    
     switchLang("en");
+    
 }
                
                
@@ -141,11 +155,19 @@ $(".switchlang").click(function() {
     // or "de" it's currently "de", click to change it
     $(this).text($(this).data("lang"));
     
+    
     // switch to other language based on language on the button
-    var lang = $(this).data("lang") == "sp" ? "en" : "sp";
+
+    var lang = $(this).data("lang") == "sp" ? "en" : "sp" ;
+
+   
+     
     $(this).data("lang", lang);
     switchLang(lang)
 });
+
+
+
 
     
 

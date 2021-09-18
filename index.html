@@ -42,7 +42,8 @@
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#certificates" data-en="Certificates" data-sp="Certificados"></a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#projects" data-en="Work" data-sp="Proyectos"></a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact" data-en="Contact" data-sp="Contacto"></a></li>
-                        <li class="nav-item"><a  class="nav-link "href = "assets/pdf/cv.pdf" target="assets/pdf/cv.pdf" data-en="Resume" data-sp="Resumen"></a></li>
+                        <li class="nav-item"><a  class="nav-link  " onclick="doClick()" href="blank" target="blank" data-en="Resume" data-sp="Resumen"></a></li>
+                       
                         
                         
                         
@@ -79,18 +80,19 @@
         </header>
         <section class="page-section bg-primary" id="aboutMe">  
             <div class="container">
-                <h2 class="text-center mt-0 text-white">Sobre Mi</h2>
+                <h2 class="text-center mt-0 text-white" data-sp="Sobre Mi" data-en="About Me"></h2>
                 <hr class="divider my-4" />
                 <div class="row">
                     <div class="col-lg-6 col-md-6 ">
                         <div class="mt-5">
                             
                             
-                            <p class="text-muted mb-0">Mi nombre es Juan Francisco de Jesus Fonseca López, nací en Venezuela en 1996, me apasiona el mundo de la tecnología desde que tengo uso de razón. Desde temprana edad he sentido curiosidad de conocer el funcionamiento de un ordenador convencional de pies a cabeza, cuales son y para que sirven sus partes y sobre todo “como darle ordenes”.
+                            <p class="text-muted mb-0" data-en="My name is Juan Francisco de Jesus Fonseca López, I was born in Venezuela in 1996, I have been passionate about the world of technology for as long as I can remember. From an early age I have been curious to know the operation of a conventional computer from head to toe, what they are and what their parts are for and above all 'how to give orders'. This passion led me to enroll in Software Engineering at the Andrés Bello Catholic University, where I am currently finishing my final degree project. As a developer, I have worked in different roles both in personal and academic projects and as an intern, however, I am currently working as a Frontend." 
+                            data-sp="Mi nombre es Juan Francisco de Jesus Fonseca López, nací en Venezuela en 1996, me apasiona el mundo de la tecnología desde que tengo uso de razón. Desde temprana edad he sentido curiosidad de conocer el funcionamiento de un ordenador convencional de pies a cabeza, cuales son y para que sirven sus partes y sobre todo “como darle ordenes”.
 
-                                Esta pasión me llevo a matricularme en la carrera de Ingeniería de Software en la Universidad Católica Andrés Bello en la que actualmente estoy finalizando mi trabajo final de grado. Como desarrollador, me he desenvuelto en diferentes roles tanto en proyectos personales como académicos y de pasante, sin embargo, actualmente me estoy desenvolviendo como Frontend. </p>
+                            Esta pasión me llevo a matricularme en la carrera de Ingeniería de Software en la Universidad Católica Andrés Bello en la que actualmente estoy finalizando mi trabajo final de grado. Como desarrollador, me he desenvuelto en diferentes roles tanto en proyectos personales como académicos y de pasante, sin embargo, actualmente me estoy desenvolviendo como Frontend.">   </p>
 
-                                <div class="mt-5" > <p class="text-muted mb-0">Algunas de las tecnologias con las que he trabajado recientemene son React.js, Node.js, JavaScript, WordPress, Next.js y TypeScript  </p></div>
+                                <div class="mt-5" > <p class="text-muted mb-0" data-sp="Algunas de las tecnologias con las que he trabajado recientemene son React.js, Node.js, JavaScript, WordPress, Next.js y TypeScript " data-en="Some of the technologies that I have worked with recently are React.js, Node.js, JavaScript, WordPress, Next.js and TypeScript"> </p></div>
                         </div>
 
                        
@@ -109,7 +111,7 @@
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-lg-10 text-center">
-                        <h2 class="text-white mt-0">Certificados</h2>
+                        <h2 class="text-white mt-0" data-sp="Certificados" data-en="Certificates"></h2>
                         <hr class="divider light my-4" />
                         <div class="row ">
                             
@@ -164,7 +166,7 @@
                        
                         <div class="button-certificates"></div>
 
-                            <a class="btn btn-primary btn-xl js-scroll-trigger"  href = "https://platzi.com/p/JuanFonseca/" target="https://platzi.com/p/JuanFonseca/">Mostrar Mas</a>
+                            <a class="btn btn-primary btn-xl js-scroll-trigger"  href = "https://platzi.com/p/JuanFonseca/" target="https://platzi.com/p/JuanFonseca/" data-sp="Mostrar Mas" data-en="See More"></a>
                             
                         </div> 
                         
@@ -176,7 +178,7 @@
         </section>
         
         <div class="page-section" id="projects">
-            <h2 class="text-white mt-0 text-center">Proyectos</h2>
+            <h2 class="text-white mt-0 text-center" data-en="Work" data-sp="Proyectos"></h2>
                         <hr class="divider light my-4" />
 
             <div class="container">
@@ -203,7 +205,7 @@
                             <a href="https://fonsex.github.io/ToDo-App" target="https://fonsex.github.io/ToDo-App"><i class="fas fa-external-link-alt text-white fa-2x float-right px-1  " ></i></a>
                             <a href="https://github.com/FONSEX/ToDo-App" target="https://github.com/FONSEX/ToDo-App"><i class="fab fa-github  text-white fa-2x float-right  px-1"></i></a>
                             <h2 class="h5 mb-5 mt-4  text-white">To Do App</h2>
-                            <p class="text-muted mb-0">Lleva un control de tus actividades, agrega las tareas que necesites realizar y marcalas como listas cuando las hayas finalizado</p>
+                            <p class="text-muted mb-0" data-sp="Lleva un control de tus actividades, agrega las tareas que necesites realizar y marcalas como listas cuando las hayas finalizado" data-en="Take a track of your activities, add the tasks you need to do and mark them as ready when you are done"></p>
                         </div>
                         
         
@@ -232,8 +234,8 @@
                         
                         
                         <a href="https://github.com/FONSEX/Queue-Simulator" target="https://github.com/FONSEX/Queue-Simulator"><i class="fab fa-github  text-white fa-2x float-right  px-1"></i></a>
-                        <h2 class="h5 mb-5 mt-4  text-white">Simulador de Colas</h2>
-                        <p class="text-muted mb-0">Este proyecto aplica el fundamento de la teoria de colas para simular el comportamiento de una linea de espera</p>
+                        <h2 class="h5 mb-5 mt-4  text-white" data-en="Queue Simulator" data-sp="Simulador de Colas"></h2>
+                        <p class="text-muted mb-0" data-sp="Este proyecto aplica el fundamento de la teoria de colas para simular el comportamiento de una linea de espera" data-en="This project applies the fundamentals of queuing theory to simulate the behavior of a waiting line"></p>
                     </div>
         
             </div>
@@ -250,8 +252,8 @@
 
 
                     
-                    <h2 class="h5 mb-5 mt-4  text-white">Administrador de Tienda de Mascotas</h2>
-                    <p class="text-muted mb-0">Este sistema facilita la gestion de la informacion de una franquicia de tiendas de mascotas</p>
+                    <h2 class="h5 mb-5 mt-4  text-white" data-en="PetShop Administrator" data-sp="Administrador de Tienda de Mascotas"></h2>
+                    <p class="text-muted mb-0" data-sp="Este sistema facilita la gestion de la informacion de una franquicia de tiendas de mascotas" data-en="This system facilitates the information management of a pet store franchise"></p>
                 </div>
         
         </div>
@@ -265,8 +267,8 @@
                                 
                             </span>
                             <a href="https://github.com/FONSEX/Dijkstra-algorithm" target="https://github.com/FONSEX/Dijkstra-algorithm"><i class="fab fa-github  text-white fa-2x float-right  px-1"></i></a>
-                            <h2 class="h5 mb-5 mt-4  text-white">La Ruta mas Corta (djiskra)</h2>
-                            <p class="text-muted mb-0">Dado un grafo, un punto de llegada y uno de salida; se buscara el camino mas corto </p>
+                            <h2 class="h5 mb-5 mt-4  text-white" data-en="Djiskra Alghorithm" data-sp="La Ruta mas Corta (djiskra)"></h2>
+                            <p class="text-muted mb-0" data-sp="Dado un grafo, un punto de llegada y uno de salida; se buscara el camino mas corto" data-en="Given it a graph, an arrival point and an exit point; the shortest path will be sought"> </p>
                         </div>
 
                 </div>
@@ -280,8 +282,8 @@
                                 
                             </span>
                             
-                            <h2 class="h5 mb-5 mt-4  text-white">Ecommerce+Blog para tienda de Carnes</h2>
-                            <p class="text-muted mb-0">Recibe la informacion de la pagina (productos y blogs) por medio de la API de woocommerce</p>
+                            <h2 class="h5 mb-5 mt-4  text-white" data-en="Ecommerce+Blog for a meat store" data-sp="Ecommerce+Blog para tienda de Carnes"></h2>
+                            <p class="text-muted mb-0" data-sp="Recibe la informacion de la pagina (productos y blogs) por medio de la API de woocommerce" data-en="Receive the information of the page (products and blogs) through the woocommerce API"></p>
                         </div>
 
                 </div>
@@ -354,8 +356,8 @@
 
                 <div class="col-lg-4 mr-auto text-center mb-4">
                     
-                    |<span><i class="fas fa-globe  " id="icon"></i>  <button class='switchlang language'  data-en="sp" data-sp="en" ></button></span> |
-                    <span class="location"><i class="fas fa-map-marker-alt" id="icon"></i>Ciudad Guayana, Venezuela</span>
+                    |<span><i class="fas fa-globe  " id="icon"></i>  <button class='switchlang language'   data-en="Español" data-sp="English" ></button></span> |
+                    <span class="location"><i class="fas fa-map-marker-alt" id="icon"></i>Puerto Ordaz, Venezuela</span>
                 </div>
                 
                 <div class="small text-center text-muted">
@@ -371,6 +373,9 @@
                 
             </div>
 
+
+           
+
             
             
                
@@ -378,7 +383,32 @@
         </footer>
         <!-- Switch Language -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-        <script>switchLang("en"); // initializes the script papaaaa </script>
+
+        <script>
+            function doClick() {
+                
+               if ((window.navigator.userLanguage || window.navigator.language).includes("en")) {
+                window.location.href = "assets/pdf/cv-en.pdf";
+                window.location.target = "assets/pdf/cv-en.pdf";
+                
+               }
+                   
+               else if ((window.navigator.userLanguage || window.navigator.language).includes("es")) {
+                window.location.href = "assets/pdf/cv.pdf";
+                window.location.target = "assets/pdf/cv.pdf";
+               
+               }
+                   
+                else  {
+                    window.location.href = "assets/pdf/cv-en.pdf";
+                    window.location.target = "assets/pdf/cv-en.pdf";
+                    
+
+                }
+               
+            }
+            </script>
+        
         <!-- Bootstrap -->
         <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
