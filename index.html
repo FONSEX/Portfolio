@@ -29,15 +29,26 @@
 
 
                 </a>
-                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-                <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav ml-auto my-2 my-lg-0">
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#aboutMe">Sobre Mi</a></li>
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#certificates">Certificados</a></li>
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#projects">Proyectos</a></li>
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contacto</a></li>
-                        <li class="nav-item"><a  class="nav-link "href = "assets/pdf/cv.pdf" target="assets/pdf/cv.pdf">Resumen</a></li>
 
+                
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    
+                    <ul class="navbar-nav ml-auto my-2 my-lg-0">
+                        
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#aboutMe" data-en="About Me" data-sp="Sobre Mi"></a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#certificates" data-en="Certificates" data-sp="Certificados"></a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#projects" data-en="Work" data-sp="Proyectos"></a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact" data-en="Contact" data-sp="Contacto"></a></li>
+                        <li class="nav-item"><a  class="nav-link "href = "assets/pdf/cv.pdf" target="assets/pdf/cv.pdf" data-en="Resume" data-sp="Resumen"></a></li>
+                        
+                        
+                        
+                          
+
+                        
+<!---->
                         
 
                          
@@ -54,13 +65,13 @@
             <div class="container h-100">
                 <div class="row h-100 align-items-center justify-content-center text-center">
                     <div class="col-lg-10 align-self-end ">
-                        <h1 class="text text-white font-weight-bold">Hola. Soy Juan Francisco</h1>
+                        <h1 class="text text-white font-weight-bold" data-en="Hi. I'm Juan Francisco" data-sp="Hola. Soy Juan Francisco"></h1>
                         <hr class="divider my-4" />
                     </div>
                     <div class="col-lg-8 align-self-baseline">
-                        <p class="text-white-75 font-weight-bold mb-5">
-                            Soy estudiante de Ingenieria de Software, actualmente culmine mi carga academica y me encuentro realizando mi trabajo de grado.</p>
-                        <a class="btn btn-primary btn-xl js-scroll-trigger" href="#aboutMe">Leer Mas</a>
+                        <p class="text-white-75 font-weight-bold mb-5" data-en="Software engineering student, finished the academic courses, doing the degree work" data-sp="Soy estudiante de Ingenieria de Software, actualmente culmine mi carga academica y me encuentro realizando mi trabajo de grado.">
+                            </p>
+                        <a class="btn btn-primary btn-xl js-scroll-trigger" href="#aboutMe" data-en="See More" data-sp="Leer Mas"></a>
                     </div>
                 </div>
             </div>
@@ -204,7 +215,7 @@
                         <i class=" far fa-folder fa-2x text-white "></i>
                         <i class="fas fa-external-link-alt text-white fa-2x float-right px-1  "></i>
                         <a href="https://github.com/FONSEX/Queue-Simulator" target="https://github.com/FONSEX/Queue-Simulator"><i class="fab fa-github  text-white fa-2x float-right  px-1"></i></a>
-                        <h2 class="h5 mb-5 mt-4  text-white">Proy pendiente</h2>
+                        <h2 class="h5 mb-5 mt-4  text-white">SPA </h2>
                         <p class="text-muted mb-0">Pendiente pendiente</p>
                     </div>
 
@@ -290,9 +301,9 @@
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-lg-10 text-center">
-                        <h2 class="mt-0 text-white">¡Mantengámonos en contacto!</h2>
+                        <h2 class="mt-0 text-white" data-sp="¡Mantengámonos en contacto!" data-en="¡Get in Touch!"></h2>
                         <hr class="divider my-4" />
-                        <p class=" mb-5 text-muted">Contactame por mis redes, enviame un mensaje por cualquier medio y hare lo posible por responder :) </p>
+                        <p class=" mb-5 text-muted" data-en="Contact me, send me a message since any platform and i'll  response you as soon posible :)"  data-sp="Contactame por mis redes, enviame un mensaje por cualquier medio y hare lo posible por responder :) "></p>
                     </div>
                 </div>
                 <div class="row">
@@ -321,13 +332,17 @@
                     
                     <div class="col-lg-2 mr-auto text-center mb-4">
                        
-                        <a class="popup" onclick="copyEmailToClipboard('jffonseca24@gmail.com')"><i class="far fa-envelope fa-3x mb-3 text-white"></i><span class="popuptext" id="popupMessage">Email Copiado al Portapapeles !</span></a>
+                        <a class="popup" onclick="copyEmailToClipboard('jffonseca24@gmail.com')"><i class="far fa-envelope fa-3x mb-3 text-white"></i><span class="popuptext" id="popupMessage"  data-en="Email Copied to clipboard !" data-sp="Email Copiado al Portapapeles !"></span></a>
 
                             
                           
   
                     </div>
 
+
+                    
+
+                
                     
                 </div>
             </div>
@@ -335,6 +350,12 @@
      
         <footer class=" py-5">
             <div class="container">
+
+                <div class="col-lg-4 mr-auto text-center mb-4">
+                    |<span><i class="fas fa-globe  " id="icon"></i>  <button class='switchlang language' data-lang="en">sp</button></span> |
+                    <span class="location"><i class="fas fa-map-marker-alt" id="icon"></i>Ciudad Guayana, Venezuela</span>
+                </div>
+                
                 <div class="small text-center text-muted">
                     Copyright &copy;
                    
@@ -342,17 +363,25 @@
                         document.write(new Date().getFullYear());
                     </script>
                     - Juan Francisco Fonseca Lopez
+
+                    
                 </div>
+                
             </div>
+            
+               
+            
         </footer>
-        <!-- Bootstrap core JS-->
+        <!-- Switch Language -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <!-- Bootstrap -->
         <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
         
-        <!-- Third party plugin JS-->
+        <!-- Popup images script-->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
-        <!-- Core theme JS-->
+        <!-- Popup images core-->
         <script src="js/scripts.js"></script>
 
         <script >

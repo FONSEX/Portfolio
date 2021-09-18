@@ -109,6 +109,31 @@
         type: 'image' // this is default type
     }); */ 
 
+    function switchLang(lang)
+{
+    $("[data-" + lang + "]").text(function(i, e) {
+        return $(this).data(lang);
+    });
+}
+
+switchLang("en");  // initializes the script papaaaa
+
+$(".switchlang").click(function() {
+    // change the button caption here, eg a flag
+    // UX opinion of whether it should be what it is 
+    // or what it will become
+    // ie "de" click to make it "de"
+    // or "de" it's currently "de", click to change it
+    $(this).text($(this).data("lang"));
+    
+    // switch to other language based on language on the button
+    var lang = $(this).data("lang") == "sp" ? "en" : "sp";
+    $(this).data("lang", lang);
+    switchLang(lang)
+});
+
     
 
 })(jQuery); // End of use strict
+
+
