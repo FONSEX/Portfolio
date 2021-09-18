@@ -4110,6 +4110,11 @@ input[type=button].btn-block {
   color: #495057;
   background-color: #fff;
   border-color: #dee2e6 #dee2e6 #fff;
+  
+}
+
+a {
+  cursor: pointer;
 }
 .nav-tabs .dropdown-menu {
   margin-top: -1px;

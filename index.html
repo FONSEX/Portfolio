@@ -42,7 +42,7 @@
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#certificates" data-en="Certificates" data-sp="Certificados"></a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#projects" data-en="Projects" data-sp="Proyectos"></a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact" data-en="Contact" data-sp="Contacto"></a></li>
-                        <li class="nav-item"><a  class="nav-link  " onclick="doClick()"   data-en="Resume" data-sp="Resumen"></a></li>
+                        <li class="nav-item"><a class="nav-link  " onclick="doClick()"    data-en="Resume" data-sp="Resumen"></a></li>
                        
                         
                         
@@ -390,21 +390,20 @@
             function doClick() {
                 
                if ((window.navigator.userLanguage || window.navigator.language).includes("en")) {
-                window.location.href = "assets/pdf/cv-en.pdf";
-                window.location.target = "assets/pdf/cv-en.pdf";
+                
+                window.open("assets/pdf/cv-en.pdf", '_blank');
+                
                 
                }
                    
                else if ((window.navigator.userLanguage || window.navigator.language).includes("es")) {
-                window.location.href = "assets/pdf/cv.pdf";
-                window.location.target = "assets/pdf/cv.pdf";
                
+                window.open("assets/pdf/cv.pdf", '_blank');
                }
                    
                 else  {
-                    window.location.href = "assets/pdf/cv-en.pdf";
-                    window.location.target = "assets/pdf/cv-en.pdf";
                     
+                    window.open("assets/pdf/cv-en.pdf", '_blank');
 
                 }
                
