@@ -124,24 +124,12 @@
 
 
 
-if ((window.navigator.userLanguage || window.navigator.language).includes("en") ) {
-    switchLang("en");
-    
-    
-}else 
-
- if ((window.navigator.userLanguage || window.navigator.language).includes("es") ) {
   
     
     switchLang("sp");
 
     
 
-} else {
-    
-    switchLang("en");
-    
-}
                
                
 
@@ -158,7 +146,7 @@ $(".switchlang").click(function() {
     
     // switch to other language based on language on the button
 
-    var lang = $(this).data("lang") == "sp" ? "en" : "sp" ;
+    var lang = $(this).data("lang") == "en" ? "sp" : "en" ;
 
    
      
