@@ -619,7 +619,8 @@ filter: grayscale(0%);
 
 
 .button-certificates {
-  margin: 1rem 2rem;
+
+  margin: 3.9rem 2rem;
 }
 
 .img-certificates {
@@ -4071,6 +4072,14 @@ input[type=button].btn-block {
   
   
 
+}
+
+#icon_location{
+  color: grey;
+  font-size: 23px;
+
+  padding-right: 3px;
+  
 }
 
 .language:hover {
