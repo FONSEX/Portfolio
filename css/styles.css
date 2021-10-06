@@ -558,7 +558,7 @@ filter: grayscale(20%);
   transform: scale(1);
   max-width: 100%;
   height: 230px;
-  
+  object-fit: cover;
   border-radius: 10px;
   filter: grayscale(60%);
   padding: 0.5rem 0.2rem ;
@@ -10366,6 +10366,7 @@ header.masthead h1 {
   flex-direction: column;
   width: 100%;
   height: 100%;
+  
   position: absolute;
   bottom: 0;
   text-align: center;
