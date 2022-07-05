@@ -110,7 +110,7 @@
 
                             Esta pasión me llevo a matricularme en la carrera de Ingeniería de Software en la Universidad Católica Andrés Bello en la que actualmente estoy finalizando mi trabajo final de grado. Como desarrollador, me he desenvuelto en diferentes roles tanto en proyectos personales como académicos y de pasante, sin embargo, actualmente me estoy desenvolviendo como Frontend.">   </p>
 
-                                <div class="mt-5" > <p class="text-muted mb-0" data-sp="Algunas de las tecnologias con las que he trabajado recientemene son React.js, Node.js, JavaScript, WordPress, Next.js y TypeScript " data-en="Some of the technologies that I have worked with recently are React.js, Node.js, JavaScript, WordPress, Next.js and TypeScript"> </p></div>
+                                <div class="mt-5" > <p class="text-muted mb-0" data-sp="Algunas de las tecnologias con las que he trabajado recientemene son React.js, Node.js, Angular, JavaScript, Next.js y TypeScript " data-en="Some of the technologies that I have worked with recently are React.js, Node.js, JavaScript, Angular, Next.js and TypeScript"> </p></div>
                         </div>
 
                        
@@ -373,20 +373,20 @@
                     <div class="col-lg-2 mr-auto text-center mb-4">
                         
                         
-                        <a href = "https://github.com/LilFon" target="https://github.com/LilFon">  <i class="fab fa-github fa-3x text-white"></i></a>
+                        <a href = "https://github.com/LilFon" target="https://github.com/LilFon">  <i class="fab fa-github fa-3x text-white icons-get-in-touch "></i></a>
                     </div>
                     <div class="col-lg-2 mr-auto text-center mb-4">
                         
-                        <a href = "https://www.linkedin.com/in/juanfranciscofonseca/" target="https://www.linkedin.com/in/juanfranciscofonseca/"> <i class="fab fa-linkedin fa-3x text-white"></i></a>
+                        <a href = "https://www.linkedin.com/in/juanfranciscofonseca/" target="https://www.linkedin.com/in/juanfranciscofonseca/"> <i class="fab fa-linkedin fa-3x text-white icons-get-in-touch "></i></a>
                     </div>
                     <div class="col-lg-2 mr-auto text-center mb-4">
                         
-                        <a href = "https://wa.me/+584120854351?text=Hola Buen Dia Juan " target="https://wa.me/+584120854351?text=Hola Buen Dia Juan ">  <i class="fab fa-whatsapp fa-3x text-white"></i></a>
+                        <a href = "https://wa.me/+584120854351?text=Hola Buen Dia Juan " target="https://wa.me/+584120854351?text=Hola Buen Dia Juan ">  <i class="fab fa-whatsapp fa-3x text-white icons-get-in-touch "></i></a>
                     </div>
                     
                     <div class="col-lg-2 mr-auto text-center mb-4">
                         
-                        <a href = "https://www.instagram.com/_jffonseca/" target="https://www.instagram.com/_jffonseca/">  <i class="fab fa-instagram fa-3x text-white"></i></a>
+                        <a href = "https://www.instagram.com/_jffonseca/" target="https://www.instagram.com/_jffonseca/">  <i class="fab fa-instagram fa-3x text-white icons-get-in-touch "></i></a>
                         
                         
                         
@@ -395,7 +395,7 @@
                     
                     <div class="col-lg-2 mr-auto text-center mb-4">
                        
-                        <a class="popup" onclick="copyEmailToClipboard('jffonseca24@gmail.com')"><i class="far fa-envelope fa-3x mb-3 text-white"></i><span class="popuptext" id="popupMessage"  data-en="Email Copied to clipboard !" data-sp="Email Copiado al Portapapeles !"></span></a>
+                        <a class="popup" onclick="copyEmailToClipboard('jffonseca24@gmail.com')"><i class="far fa-envelope fa-3x mb-3 text-white icons-get-in-touch"></i><span class="popuptext" id="popupMessage"  data-en="Copied !" data-sp="Copiado !"></span></a>
 
                             
                           
@@ -483,7 +483,10 @@
             document.execCommand("copy");
             document.body.removeChild(aux);
             var popup = document.getElementById("popupMessage");
-              popup.classList.toggle("show"); }
+
+            
+              popup.classList.toggle("show");
+              setTimeout(function() { popup.classList.remove("show");}, 600); }
 
 
         </script>

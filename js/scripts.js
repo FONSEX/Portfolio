@@ -56,7 +56,7 @@
     $('#certificates').magnificPopup({
         delegate: 'span',
         type: 'image',
-        tLoading: 'Cargando imagen #%curr%...',
+        tLoading: 'Cargando imagen ...',
         mainClass: 'mfp-img-mobile',
         gallery: {
             enabled: true,
@@ -71,7 +71,7 @@
     $(`#projects`).magnificPopup({
         delegate: 'span',
         type: 'image',
-        tLoading: 'Cargando imagen #%curr%...',
+        tLoading: 'Cargando imagen ...',
         mainClass: 'mfp-img-mobile',
         
         

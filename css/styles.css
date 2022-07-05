@@ -88,8 +88,7 @@ p {
 }
 
 .popup {
-  position: relative;
-  display: inline-block;
+  
   cursor: pointer;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -121,6 +120,7 @@ p {
   border-width: 5px;
   border-style: solid;
   border-color: #555 transparent transparent transparent;
+  
 }
 
 .popup .show {
@@ -9911,6 +9911,13 @@ button.bg-dark:focus {
   pointer-events: auto;
   content: "";
   background-color: rgba(0, 0, 0, 0);
+}
+
+.icons-get-in-touch:hover {
+  
+  transition: transform 0.2s;
+  transform: scale(1.2);
+  max-width: 50%;
 }
 
 .text-monospace {
