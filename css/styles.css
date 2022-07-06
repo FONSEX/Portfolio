@@ -567,16 +567,22 @@ mark,
 
 }
 
-.img-profile:hover {
+@media (min-width: 768px) {
+
+  .img-profile:hover {
   
 
 
-transition: transform 0.20s;
-
-transform: scale(1.03);
-
-filter: grayscale(20%);
+    transition: transform 0.20s;
+    
+    transform: scale(1.03);
+    
+    filter: grayscale(20%);
+    }
+  
 }
+
+
 
 .img-fluid {
   transition: transform 0.5s;
@@ -597,6 +603,8 @@ transform: scale(1.01);
 filter: grayscale(10%);
 }
 
+
+
 .pro-fluid {
   transition: transform 0.5s;
   transform: scale(1);
@@ -611,13 +619,36 @@ filter: grayscale(10%);
   padding: 1rem 0.2rem ;
 }
 
-.pro-fluid:hover {
-
-  transition: transform 0.1s;
-
-transform: scale(1.05);
-filter: grayscale(0%);
+.class-icons:active {
+  transition: opacity 1s;
+  border-radius: 20px;
+  opacity: .05;
+  
 }
+
+@media (min-width: 768px) {
+
+  .pro-fluid:hover {
+
+    transition: transform 0.1s;
+  
+  transform: scale(1.05);
+  filter: grayscale(0%);
+  }
+
+
+  .class-icons:hover {
+    border-radius: 20px;
+    opacity: .5;
+    
+  
+  }
+
+
+
+ }
+
+
 
 .main-fluid {
   transition: transform 0.2s;
@@ -9913,11 +9944,32 @@ button.bg-dark:focus {
   background-color: rgba(0, 0, 0, 0);
 }
 
-.icons-get-in-touch:hover {
-  
+
+.icons-get-in-touch:active {
+  border-radius: 20px;
+  opacity: .05;
+
+}
+
+.icons-get-in-touch{
   transition: transform 0.2s;
-  transform: scale(1.2);
+  transform: scale(1);
   max-width: 50%;
+
+}
+
+
+@media (min-width: 768px) { 
+
+  .icons-get-in-touch:hover {
+  
+    transition: transform 0.2s;
+    transform: scale(1.2);
+    max-width: 50%;
+  }
+
+
+
 }
 
 .text-monospace {

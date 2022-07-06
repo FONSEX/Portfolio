@@ -64,7 +64,7 @@
            
         },
         image: {
-            tError: '<a href="%url%">The image #%curr%</a> could not be loaded.'
+            tError: '<a href="%url%">La imagen no pudo ser cargada :s'
         }
     });
 
@@ -77,7 +77,7 @@
         
         image: {
             type:'image',
-            tError: '<a href="%url%">The image #%curr%</a> could not be loaded.'
+            tError: '<a href="%url%">La imagen no pudo ser cargada :s'
         }
     });
 
