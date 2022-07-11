@@ -10415,9 +10415,39 @@ header.masthead {
   -webkit-box-shadow: inset -1px -5px 31px 22px rgba(0,0,0,0.18);
 -moz-box-shadow: inset -1px -5px 31px 22px rgba(0,0,0,0.18);
 box-shadow: inset -1px -5px 31px 22px rgba(0,0,0,0.18);
+  animation: fadeIn 2.5s;
+  -webkit-animation: fadeIn 2.5s;
+  -moz-animation: fadeIn 2.5s;
+  -o-animation: fadeIn 2.5s;
+  -ms-animation: fadeIn 2.5s;
 }
 header.masthead h1 {
   font-size: 2.25rem;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-moz-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-webkit-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-o-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-ms-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
 }
 @media (min-width: 992px) {
   header.masthead {
