@@ -2,10 +2,6 @@
 (function ($) {
     "use strict"; 
 
-
-   
-
-    // Smooth scrolling 
     $('a.js-scroll-trigger[href*="#"]:not([href="#"])').on('click', function () {
         if (
             location.pathname.replace(/^\//, "") ==
@@ -28,18 +24,18 @@
         }
     });
 
-    // Closes responsive menu when a scroll trigger link is clicked
+    
     $('.js-scroll-trigger').click(function () {
         $('.navbar-collapse').collapse('hide');
     });
 
-    // Activate scrollspy to add active class to navbar items on scroll
+    
     $('body').scrollspy({
         target: '#mainNav',
         offset: 75
     });
 
-    // Collapse Navbar
+    
     var navbarCollapse = function () {
         if ($("#mainNav").offset().top > 100) {
             $("#mainNav").addClass("navbar-scrolled");
@@ -47,12 +43,11 @@
             $("#mainNav").removeClass("navbar-scrolled");
         }
     };
-    // Collapse now if page is not at top
+   
     navbarCollapse();
-    // Collapse the navbar when page is scrolled
+    
     $(window).scroll(navbarCollapse);
 
-    // Magnific popup calls
     $('#certificates').magnificPopup({
         delegate: 'span',
         type: 'image',
@@ -81,37 +76,6 @@
         }
     });
 
-
-
-   /* $('#more_certificates').magnificPopup({
-        items: [
-          {
-            src: 'path-to-image-1.jpg',
-            type: 'image'
-          },
-          {
-            src: 'path-to-image-1.jpg',
-            type: 'image'
-          },
-          {
-            src: 'path-to-image-1.jpg',
-            type: 'image'
-          },
-          {
-            src: 'path-to-image-1.jpg',
-            type: 'image'
-          },
-          {
-            src: 'path-to-image-1.jpg',
-            type: 'image'
-          }
-        ],
-        gallery: {
-          enabled: true
-        },
-        type: 'image' // this is default type
-    }); */ 
-
     function switchLang(lang)
 {
     $("[data-" + lang + "]").text(function(i, e) {
@@ -119,33 +83,12 @@
     });
 }
 
-
-
-
-
-
-  
-    
     switchLang("sp");
 
-    
-
-               
-               
-
-
-
 $(".switchlang").click(function() {
-    // change the button caption here, eg a flag
-    // UX opinion of whether it should be what it is 
-    // or what it will become
-    // ie "de" click to make it "de"
-    // or "de" it's currently "de", click to change it
+    
     $(this).text($(this).data("lang"));
     
-    
-    // switch to other language based on language on the button
-
     var lang = $(this).data("lang") == "en" ? "sp" : "en" ;
 
    
@@ -154,11 +97,6 @@ $(".switchlang").click(function() {
     switchLang(lang)
 });
 
-
-
-
-    
-
-})(jQuery); // End of use strict
+})(jQuery); 
 
 
