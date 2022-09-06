@@ -83,13 +83,13 @@
     });
 }
 
-    switchLang("sp");
+    switchLang("en");
 
 $(".switchlang").click(function() {
     
     $(this).text($(this).data("lang"));
     
-    var lang = $(this).data("lang") == "en" ? "sp" : "en" ;
+    var lang = $(this).data("lang") == "sp" ? "en" : "sp" ;
 
    
      
